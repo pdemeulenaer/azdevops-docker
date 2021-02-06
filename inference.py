@@ -5,7 +5,11 @@ import numpy as np
 from sklearn import datasets
 from sklearn.utils import shuffle
 
-
+# For test on local machine
+# MODEL_DIR="/home/philippe/Desktop"
+# MODEL_FILE="clf.joblib"
+# METADATA_FILE="metadata.json"
+# For run on docker image
 MODEL_DIR = os.environ["MODEL_DIR"]
 MODEL_FILE = os.environ["MODEL_FILE"]
 METADATA_FILE = os.environ["METADATA_FILE"]
