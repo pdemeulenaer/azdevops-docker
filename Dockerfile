@@ -3,7 +3,7 @@ FROM jupyter/scipy-notebook
 RUN pip install joblib
 
 RUN mkdir model
-ENV MODEL_DIR=/home/philippe/model
+ENV MODEL_DIR=/home/jovyan/model
 ENV MODEL_FILE=clf.joblib
 ENV METADATA_FILE=metadata.json
 
